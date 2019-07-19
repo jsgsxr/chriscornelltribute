@@ -2,7 +2,12 @@
     font-size: 18px;
     font-family: 'Bahianita', cursive;
     color: darkgray;
-    background-color: black;
+}
+
+body {
+    background-image: url("https://download.hipwallpaper.com/desktop/1680/1050/54/56/WKPeu1.jpg");
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 header {
@@ -38,6 +43,8 @@ header {
     width: 100%;
     height: auto;
     margin-top: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(169, 169, 169, 0.13);
 }
 
 #image {
@@ -62,9 +69,11 @@ header {
     margin: 0 auto;
     justify-content: center;
     border: .5rem solid rgba(218, 28, 28, 0.404);
+    background-color: rgba(6, 8, 10, 0.664);
 }
 
 h3 {
+    color: rgba(240, 255, 255, 0.836);
     font-size: 2.5rem;
     margin: .5rem 30%;
     border-bottom: .3rem solid rgba(218, 28, 28, 0.404);
@@ -75,12 +84,14 @@ h3 {
 }
 
 .band-list li {
+    color: rgba(240, 255, 255, 0.836);
     font-family: 'Josefin Sans', sans-serif;
     width: 9rem;
     margin: .5rem auto;
 }
 
 .lifetime li {
+    color: rgba(240, 255, 255, 0.836);
     font-family: 'Josefin Sans', sans-serif;
     margin: 1rem auto;
 }
